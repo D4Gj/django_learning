@@ -1,0 +1,14 @@
+body {
+    font-family: 'Source Sans pro', sans-serif;
+    font-size: 18px;
+}
+header{
+    border-bottom: 1px solid #999999;
+    margin-bottom: 2em;
+    display: flex;
+}
+
+header h1 a{
+    color: red;
+    text-decoration: none;
+}
