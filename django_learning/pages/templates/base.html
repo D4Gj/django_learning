@@ -8,7 +8,9 @@
 </head>
 <header>
     <h1><a href="{% url 'home' %}">Home</a></h1>
-
+    <div class="nav-right">
+        <a href="{% url 'post_new' %}">+ New post</a>
+    </div>
 </header>
 <body>
 {% block content %}
